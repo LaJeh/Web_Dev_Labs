@@ -1,5 +1,3 @@
-// Simple pokedex - search by name or number (pokeapi)
-
 async function loadPokemon(userInput: string) {
   const slug = userInput
     .trim()
