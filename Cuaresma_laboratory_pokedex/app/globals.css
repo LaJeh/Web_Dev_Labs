@@ -1,0 +1,53 @@
+html {
+  zoom: 1.75;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 0 15px;
+  background: linear-gradient(to right, #000000, #252525, rgb(0, 0, 0));
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#pokemon-search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+p {
+  color: aliceblue;
+}
+
+input[type="search"] {
+  padding: 8px;
+  width: 200px;
+}
+
+button {
+  padding: 8px 12px;
+}
+
+.result {
+  border: 1px solid #000000;
+  padding: 15px;
+  margin-top: 15px;
+  background: linear-gradient(to right, #aaaaaa, #ffffff);
+  border-radius: 10px;
+}
+
+.result img {
+  display: block;
+  margin: 0 auto 10px;
+}
